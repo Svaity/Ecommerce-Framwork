@@ -1,4 +1,4 @@
-# Ecommerce-Framwork
+# Ecommerce-Framework
 ![screenshot 2018-12-09 at 9 06 45 pm](https://user-images.githubusercontent.com/43662680/50105411-9e40a800-01fa-11e9-9296-fe7c6f584c56.png)
 
 You've been hired to create an e-commerce solution in Python to allow multiple stores to sell multiple products to multiple customers.   
