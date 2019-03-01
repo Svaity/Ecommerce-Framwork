@@ -1,5 +1,5 @@
 # Ecommerce-Framework
-[![build status of master](https://travis-ci.org/Svaity/Ecommerce-Framwork.svg?branch=master)](https://travis-ci.org/Svaity/Ecommerce-Framwork)
+#[![build status of master](https://travis-ci.org/Svaity/Ecommerce-Framwork.svg?branch=master)](https://travis-#ci.org/Svaity/Ecommerce-Framwork)
 
 ![screenshot 2018-12-09 at 9 06 45 pm](https://user-images.githubusercontent.com/43662680/50105411-9e40a800-01fa-11e9-9296-fe7c6f584c56.png)
 
