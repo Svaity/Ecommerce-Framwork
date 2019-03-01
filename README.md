@@ -1,5 +1,5 @@
 # Ecommerce-Framework
-#[![build status of master](https://travis-ci.org/Svaity/Ecommerce-Framwork.svg?branch=master)](https://travis-#ci.org/Svaity/Ecommerce-Framwork)
+
 
 ![screenshot 2018-12-09 at 9 06 45 pm](https://user-images.githubusercontent.com/43662680/50105411-9e40a800-01fa-11e9-9296-fe7c6f584c56.png)
 
@@ -13,3 +13,5 @@ inventory.txt identifies the store_id of the store, the product_id of the produc
 customers.txt includes the customer_id and the name of the customer who purchase products from the stores
 transactions.txt describes the transactions where the customers attempt to purchase products from sellers and includes the customer_id who is making the purchase, the quantity to be purchased, the product_id of the product being purchased, and the store_id where the product is being purchased
 Your solution should define classes to store all of the relevant information and then read the data files to create instances of those classes.  My solution creates the stores, defines the products, identifies the customers, then processes the initial inventory to store the quantities of each product at each store.  Then it processes each line in the transactions file to update the sales and purchase information.  Finally, it generates prettytables to summarize the sales at each stores and the orders placed by the individual customers.  
+
+[![build status of master](https://travis-ci.org/Svaity/Ecommerce-Framwork.svg?branch=master)](https://travis-ci.org/Svaity/Ecommerce-Framwork)
