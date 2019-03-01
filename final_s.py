@@ -52,6 +52,7 @@ class Store:
 			yield [self._store_name, self._product_name[product_id], sorted(self._product_sold[product_id].keys()),
 			sum(self._product_sold[product_id].values())]
 
+
 class Customer:
 	"""Customer class is where all details related to customer is stored"""
 	def __init__(self, customer_id, customer_name):
@@ -96,7 +97,7 @@ class University:
 		try:
 			for cust_id, cust_name in file_reader(path, 2, sep=",", header=True):
 				if cust_id in self._customers:
-					print(f"customer id already there {cust_id}")
+					print(f'customer id already there {cust_id}')
 				else:
 					self._customers[cust_id] = Customer(cust_id, cust_name)
 		except ValueError as err:
@@ -170,6 +171,7 @@ class University:
 			for row in customer.pt_row():
 				pt.add_row(row)
 		print(pt)
+
 
 def main():
 	University('/Users/Shrey/PycharmProjects/F18')
