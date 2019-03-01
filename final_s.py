@@ -47,8 +47,6 @@ class Store:
 		self._product_sold[prod_id][cust_id] += sold_quantity
 		self._product_quantity[prod_id] -= sold_quantity
 
-
-
 	def pt_row(self):
 		for product_id in self._product_sold.keys():
 			yield [self._store_name, self._product_name[product_id], sorted(self._product_sold[product_id].keys()),
