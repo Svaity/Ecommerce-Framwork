@@ -1,11 +1,11 @@
-from work import Ecommerce, Customer, Store
+from final_s import University, Customer, Store
 import unittest
 
 
 class EcommTest(unittest.TestCase):
 	def test_Ecomm(self):
 		wdir = '/Users/Shrey/PycharmProjects/F18'
-		stevens = Ecommerce(wdir, False)
+		stevens = University(wdir, False)
 		Store = [[["Maha's Movies", 'Bohemian Rhapsody movie tickets', ['GitHub Gus'], 4],["Maha's Movies",'Grinch movie tickets',['Debugging Dinesh', 'GitHub Gus'],10]],[["Ben's Books",'Java Programming Jokes',
 		['Architect Armin', 'Debugging Dinesh', 'GitHub Gus'],
 		 1],
